@@ -1,0 +1,1 @@
+var e=(i=>(i.topLeague="topLeague",i.boostedOdds="boostedOdds",i.todayEvents="todayEvents",i.topMatches="topMatches",i.multiples="multiples",i.outright="outright",i.AllESports="AllESports",i.all="all",i.favourites="favourites",i.team="team",i.myBets="myBets",i.betBuilder="betBuilder",i.coupon="coupon",i.olympicCompetition="olympicCompetition",i))(e||{});export{e as E};

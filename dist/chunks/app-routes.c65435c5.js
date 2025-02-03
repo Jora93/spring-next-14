@@ -1,0 +1,1 @@
+const e={home:"",live:"desktop-sportsbook-live",prematch:"desktop-sportsbook-prematch",virtualSports:"virtual-sport",eLive:"e-live",ePrematch:"e-prematch",casinoGames:"casino",casinoTournaments:"tournaments",racing:"racing"},o={addToBetslip:"/add-to-betslip",deposit:"/account/deposit"};export{e as A,o as R};

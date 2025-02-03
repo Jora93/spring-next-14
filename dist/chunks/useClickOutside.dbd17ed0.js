@@ -1,0 +1,1 @@
+import{useEffect as s}from"react";function d(e,o,u){s(()=>{function n(i){const t=typeof e=="string"?document.querySelector(e):e.current;t&&!t.contains(i.target)&&o()}return document.addEventListener("mousedown",n),()=>{document.removeEventListener("mousedown",n)}},[u])}export{d as u};

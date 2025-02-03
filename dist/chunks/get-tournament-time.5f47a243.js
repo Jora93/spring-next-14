@@ -1,0 +1,1 @@
+import{d as e}from"./backend-status-codes.4c1943df.js";import{S as t}from"./index.9a33d21b.js";import{d as o}from"./usePredefinedStakes.892527de.js";const s=(a,r=".")=>e.utc(a).local().format(o({date:t.DT.longDate,separator:r,time:t.DT.time,dateTimeSeparator:" "}).replace("MMM","MM"));export{s as g};

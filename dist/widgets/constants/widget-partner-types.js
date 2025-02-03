@@ -1,0 +1,1 @@
+var o=(s=>(s.Events="spEvents",s.SkillGames="SkillGames",s.VirtualSport="VirtualSport",s.Esport="Esport",s.Clock="spClock",s.BetOnLeague="betOnLeague",s.TvGames="TvGames",s.Sportsbook="sportsbook",s.CasinoSingleGame="CasinoSingleGame",s.Betslip="Betslip",s.Calendar="Calendar",s.FTNRate="spFTNRate",s.TopCasinoWinners="TopCasinoWinners",s))(o||{});export{o as EWidgetPartnerType};

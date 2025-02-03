@@ -1,0 +1,1 @@
+import{memo as u,useState as a,useLayoutEffect as l,useEffect as r}from"react";import{createPortal as s}from"react-dom";const y=u(({rootId:e,children:c,hide:o})=>{const[t,n]=a();return l(()=>{const m=e?document.getElementById(e):null;m&&n(m)},[e]),r(()=>{n(e?document.getElementById(e):document.body)},[e]),t&&!o?s(c,t):null});export{y as P};

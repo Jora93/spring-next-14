@@ -1,0 +1,1 @@
+const i=(t,o,l=!1,s=".row-container",d)=>{const e=l?t:t==null?void 0:t.closest(s);if(!e)return null;d&&(e.style.zIndex="3");let n=+window.getComputedStyle(e,"").getPropertyValue("z-index");return n&&(n+=o,e.style.zIndex=n.toString()),e};export{i as c};

@@ -1,0 +1,5 @@
+import{I as g,a_ as b}from"./backend-status-codes.4c1943df.js";var c;function s(t){var o="rc-scrollbar-measure-".concat(Math.random().toString(36).substring(7)),r=document.createElement("div");r.id=o;var e=r.style;e.position="absolute",e.left="0",e.top="0",e.width="100px",e.height="100px",e.overflow="scroll";var a,i;if(t){var d=getComputedStyle(t);e.scrollbarColor=d.scrollbarColor,e.scrollbarWidth=d.scrollbarWidth;var n=getComputedStyle(t,"::-webkit-scrollbar"),l=parseInt(n.width,10),h=parseInt(n.height,10);try{var u=l?"width: ".concat(n.width,";"):"",f=h?"height: ".concat(n.height,";"):"";g(`
+#`.concat(o,`::-webkit-scrollbar {
+`).concat(u,`
+`).concat(f,`
+}`),o)}catch(p){console.error(p),a=l,i=h}}document.body.appendChild(r);var m=t&&a&&!isNaN(a)?a:r.offsetWidth-r.clientWidth,v=t&&i&&!isNaN(i)?i:r.offsetHeight-r.clientHeight;return document.body.removeChild(r),b(o),{width:m,height:v}}function S(t){return typeof document=="undefined"?0:((t||c===void 0)&&(c=s()),c.width)}function w(t){return typeof document=="undefined"||!t||!(t instanceof Element)?{width:0,height:0}:s(t)}export{w as a,S as g};

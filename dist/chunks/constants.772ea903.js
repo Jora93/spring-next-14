@@ -1,0 +1,1 @@
+const F={yellow_card:{name:"card",color:"#F3BF49"},red_card:{name:"card",color:"#FF6262"},corner:{name:"corner",color:"#FFFFFF"},1:{name:"firstHalf",color:"#FFFFFF"},2:{name:"secondHalf",color:"#FFFFFF"}},o=["notstarted","timeout"];export{F as C,o as O};

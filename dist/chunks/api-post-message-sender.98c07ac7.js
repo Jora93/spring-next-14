@@ -1,0 +1,1 @@
+const t=e=>{parent.postMessage({action:"openSlider",tab:e},"*")},s=e=>{parent.postMessage({action:"openPage",page:e},"*")},a=e=>{parent.postMessage({action:"fixedHeightChanged",height:e},"*")},n=e=>{parent.postMessage({betslipDataBetsLength:e},"*")};export{s as a,n as b,a as f,t as o};

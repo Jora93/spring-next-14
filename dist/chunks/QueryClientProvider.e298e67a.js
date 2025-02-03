@@ -1,0 +1,1 @@
+import*as t from"react";import{j as u}from"./index.9a33d21b.js";var o=t.createContext(void 0),s=r=>{const e=t.useContext(o);if(r)return r;if(!e)throw new Error("No QueryClient set, use QueryClientProvider to set one");return e},i=({client:r,children:e})=>(t.useEffect(()=>(r.mount(),()=>{r.unmount()}),[r]),u.jsx(o.Provider,{value:r,children:e}));export{i as Q,s as u};
