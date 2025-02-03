@@ -1,1 +1,0 @@
-import{j as o}from"./index.9a33d21b.js";const i=({children:r,url:t,dataTestId:e,className:a,onClick:p})=>o.jsx("a",{href:t,onClickCapture:s=>{s.preventDefault()},"data-testid":e,className:a,onClick:p,children:r});export{i as U};

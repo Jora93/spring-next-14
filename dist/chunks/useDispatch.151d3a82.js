@@ -1,1 +1,0 @@
-import{R as e}from"./index.9a33d21b.js";import{useContext as i}from"react";import{a as n}from"./index.17630e7e.js";function u(r){r===void 0&&(r=e);var t=r===e?n:function(){return i(r)};return function(){var o=t(),a=o.store;return a}}var f=u();function p(r){r===void 0&&(r=e);var t=r===e?f:u(r);return function(){var o=t();return o.dispatch}}var m=p();export{m as u};

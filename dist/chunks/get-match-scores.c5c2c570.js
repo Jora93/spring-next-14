@@ -1,0 +1,1 @@
+import{C as r}from"./swarm-command-names.230156ba.js";import{p as t,R as s}from"./index.c0392060.js";const c=(m,a,o)=>{t.then(n=>{n.sendCommand({command:r.GET_MATCH_SCORES,params:{match_id_list:m},rid:s.gForCommand()},"",a,null,o)})};export{c as g};

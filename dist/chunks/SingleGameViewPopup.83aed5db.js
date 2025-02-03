@@ -1,0 +1,1 @@
+import{S as i,j as o}from"./index.053dea56.js";import{p}from"./index.dd0790b5.js";import{M as s}from"./index.aeecd9e1.js";const m=({show:e})=>{const r=!location.href.includes(`/${i.CASINO_MOUNT_PATH}/`)&&e;return o.jsx(s,{show:r,children:o.jsx(p,{})})};export{m as S};
